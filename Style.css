@@ -1,0 +1,79 @@
+body{
+  font-family: 'Shadows Into Light', cursive;
+  background: linear-gradient(0deg, hsl(198, 100%, 91%) 0%, rgb(242, 219, 255) 40%, rgb(255, 213, 236) 100%);
+}
+a {
+  font-family: 'Shadows Into Light', cursive;
+  color: #CE93FF;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:  40px;
+}
+
+a:hover {
+  color: #9a53d4;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+h1 {
+  font-size: 70px;
+}
+
+
+
+#me{
+  background: linear-gradient(to bottom, hsl(278, 100%, 71%) 0%, hsl(235, 100%, 68%) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+
+
+
+.card{
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+  font-size: 30px;
+  color: hsl(216, 100%, 64%);
+}
+
+button{
+  background-color:hsl(216, 100%, 64%);
+  color: hsl(198, 100%, 91%);
+  font-size: 25px;
+  border: 0;
+  border-radius: 15px;
+  width: 120px;
+  height: 50px;
+}
+
+input{
+  width: 400px;
+  margin: 20px;
+  background-color: #00000000;
+  border-width: 0px;
+  border-bottom-width:3px;
+  border-bottom-color: hsl(216, 100%, 64%);
+  color: hsl(216, 100%, 64%);
+}
+
+#submit{
+  margin-left: 300px;
+}
+
+#updates_text{
+  font-size: 30px;
+  padding-top: 40px;
+  color: hsl(216, 100%, 64%);
+}
